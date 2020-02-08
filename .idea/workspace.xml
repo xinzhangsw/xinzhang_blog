@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa90229d-0cc5-4ff4-9d0f-7241b3d1104b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templatetags/blog_extras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_archives.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_recent_posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/inclusions/_archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/inclusions/_archives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/inclusions/_categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/inclusions/_categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/inclusions/_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/inclusions/_tags.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581140170014</updated>
       <workItem from="1581140316260" duration="5664000" />
-      <workItem from="1581158410515" duration="11508000" />
+      <workItem from="1581158410515" duration="13189000" />
     </task>
     <servers />
   </component>
