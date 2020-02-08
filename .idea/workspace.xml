@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa90229d-0cc5-4ff4-9d0f-7241b3d1104b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/github.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/highlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/highlightjs-line-numbers.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581140170014</updated>
       <workItem from="1581140316260" duration="5664000" />
-      <workItem from="1581158410515" duration="8995000" />
+      <workItem from="1581158410515" duration="9898000" />
     </task>
     <servers />
   </component>
