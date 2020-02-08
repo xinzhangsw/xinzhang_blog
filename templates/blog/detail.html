@@ -12,7 +12,7 @@
                 <span class="views-count"><a href="#">588 阅读</a></span>
             </div>
         </header>
-        <div class="entry-content clearfix">{{ post.body }}</div>
+        <div class="entry-content clearfix">{{ post.body | safe }}</div>
     </article>
     <section class="comment-area" id="comment-area">
         <hr>
