@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'blog/css/ionicons.min.css' %}">
     <link rel="stylesheet" href="{% static 'blog/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'blog/css/pace.css' %}">
@@ -75,7 +74,7 @@
                                 <a href="single.html">{{ post.title }}</a>
                             </h1>
                             <div class="entry-meta">
-                                <span class="post-category"><a href="#">{{ post.name }}</a></span>
+                                <span class="post-category"><a href="#">{{ post.category.name }}</a></span>
                                 <span class="post-date"><a href="#"><time class="entry-date"
                                                                           datetime="{{ post.created_time }}">{{ post.created_time }}</time></a></span>
                                 <span class="post-author"><a href="#">{{ post.author }}</a></span>
