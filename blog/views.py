@@ -14,6 +14,7 @@ class IndexView(ListView):
     model = Post
     template_name = 'blog/index.html'
     context_object_name = 'post_list'
+    paginate_by = 10
 
     def get_queryset(self):
         return super(IndexView, self).get_queryset().order_by('-created_time')
@@ -36,7 +37,7 @@ class CategoryView(IndexView):
 class TagView(IndexView):
     def get_queryset(self):
         t = get_object_or_404(Tag, pk=self.kwargs.get('pk'))
-        return super(TagView, self).get_queryset().filter(Tag=t)
+        return super(TagView, self).get_queryset().filter(tag=t)
 
 
 class PostDetailView(DetailView):
