@@ -1,5 +1,6 @@
 from django.shortcuts import get_object_or_404
 from django.views.generic import ListView, DetailView
+from pure_pagination import PaginationMixin
 from .models import Post, Category, Tag
 import markdown
 import re
@@ -10,6 +11,7 @@ from markdown.extensions.toc import TocExtension
 # Create your views here.
 
 
+# class IndexView(ListView, PaginationMixin):
 class IndexView(ListView):
     model = Post
     template_name = 'blog/index.html'
