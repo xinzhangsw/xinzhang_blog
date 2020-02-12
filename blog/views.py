@@ -1,8 +1,10 @@
+import pathlib
 from django.contrib import messages
 from django.db.models import Q
 from django.shortcuts import get_object_or_404, render, redirect
 from django.views.generic import ListView, DetailView
 from pure_pagination import PaginationMixin
+from xinzhang_blog.settings import BASE_DIR
 from .models import Post, Category, Tag
 import markdown
 import re
@@ -77,3 +79,7 @@ def search(request):
 
     post_list = Post.objects.filter(Q(title__icontains=q) | Q(body__icontains=q))
     return render(request, 'blog/index.html', {'post_list': post_list})
+
+
+def about(request):
+    return render(request, 'blog/about.html')
