@@ -21,4 +21,5 @@ urlpatterns = [
     path('', include('blog.urls')),
     path('', include('comments.urls')),
     path('', include('oauth.urls')),
+    path('', include('guestbook.urls'))
 ]

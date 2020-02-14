@@ -2,28 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa90229d-0cc5-4ff4-9d0f-7241b3d1104b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oauth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/oauth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/oauth/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/gitalk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/migrations/0002_auto_20200214_2114.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/guestbook/message.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/oauth/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/oauth/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/not_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/not_sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xinzhang_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/xinzhang_blog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xinzhang_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/xinzhang_blog/urls.py" afterDir="false" />
     </list>
@@ -166,6 +166,7 @@
       <workItem from="1581235037981" duration="3441000" />
       <workItem from="1581249049656" duration="3167000" />
       <workItem from="1581252737881" duration="37701000" />
+      <workItem from="1581682302377" duration="8564000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,65 @@
+    .gt-comment {
+        position: relative;
+        padding: 0.625em 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .gt-comment-content {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        margin-left: 1.25em;
+        padding: 0.75em 1em;
+        background-color: #f9f9f9;
+        overflow: auto;
+        -webkit-transition: all ease 0.25s;
+        transition: all ease 0.25s;
+    }
+
+    .gt-comment-content:hover {
+        -webkit-box-shadow: 0 0.625em 3.75em 0 #f4f4f4;
+        box-shadow: 0 0.625em 3.75em 0 #f4f4f4;
+    }
+
+    @media (max-width: 479px) {
+        .gt-comment-content {
+            margin-left: 0.875em;
+            padding: 0.625em 0.75em;
+        }
+    }
+
+    .gt-comment-header {
+        margin-bottom: 0.5em;
+        font-size: 0.875em;
+        position: relative;
+    }
+
+    .gt-comment-username {
+        font-weight: 500;
+        color: #6190e8;
+        text-decoration: none;
+    }
+
+    .gt-comment-username:hover {
+        text-decoration: underline;
+    }
+
+    .gt-comment-text {
+        margin-left: 0.5em;
+        color: #a1a1a1;
+    }
+
+    .gt-comment-date {
+        margin-left: 0.5em;
+        color: #a1a1a1;
+    }
+
+    .gt-comment-body {
+        color: #333 !important;
+    }
+
+    .gt-comment-admin .gt-comment-content {
+        background-color: #f6f9fe;
+    }

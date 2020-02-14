@@ -10,5 +10,4 @@ urlpatterns = [
     path('tags/<int:pk>/', views.TagView.as_view(), name='tag'),
     path('search/', views.search, name='search'),
     path('about/', views.about, name='about'),
-    path('message/', views.message, name='message'),
 ]

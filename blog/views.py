@@ -84,7 +84,3 @@ def search(request):
 
 def about(request):
     return render(request, 'blog/about.html')
-
-
-def message(request):
-    return render(request, 'blog/message.html')

@@ -1,0 +1,58 @@
+{% extends 'not_sidebar.html' %}
+{% load static %}
+{% block main %}
+    <div class="content-body">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-12">
+                    <h1 class="page-title">留言墙</h1>
+                    <div class="entry-content clearfix">
+                        {% if messages %}
+                            {% for message in messages %}
+                                <div class="gt-comment" style="transform-origin: center;">
+                                    <div class="gt-comment-content">
+                                        <div class="gt-comment-header">
+                                            <a class="gt-comment-username">{{ message.username }}</a><span
+                                                class="gt-comment-text">发表于</span><span
+                                                class="gt-comment-date">{{ message.publish|date:'Y-m-d H:i:s' }}</span>
+                                        </div>
+                                        <div class="gt-comment-body markdown-body">
+                                            <h3>{{ message.title }}</h3></div>
+                                        <div class="gt-comment-body markdown-body"><p>{{ message.content }}</p></div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </main>
+                <main class="col-md-12">
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=#987cb9 SIZE=3>
+                    <div class="height-40px"></div>
+                </main>
+                <main class="col-md-12">
+                    <h1 class="page-title">告诉我</h1>
+                    <article class="post">
+                        <div class="entry-content clearfix">
+                            <form action="{% url 'guestbook:save' %}" method="post" class="contact-form"
+                                  novalidate="novalidate">
+                                {% csrf_token %}
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <input type="text" name="title" placeholder="标题" required>
+                                        <textarea name="content" rows="7" placeholder="你的留言"
+                                                  required></textarea>
+                                    </div>
+                                    <div class="col-md-6 col-md-offset-3 text-center">
+                                        <button class="btn-send btn-5 btn-5b ion-ios-paperplane"
+                                                type="submit">
+                                            <span>留言</span></button>
+                                    </div>
+                                </div>    <!-- row -->
+                            </form>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+    </div>
+{% endblock main %}

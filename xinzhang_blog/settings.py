@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'comments.apps.CommentsConfig',
     # 'pure_pagination',
     'oauth.apps.OauthConfig',
+    'guestbook.apps.GuestbookConfig',
 ]
 
 MIDDLEWARE = [
