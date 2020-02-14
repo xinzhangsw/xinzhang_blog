@@ -3,16 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="fa90229d-0cc5-4ff4-9d0f-7241b3d1104b" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/blog/static/blog/css/gitalk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/migrations/0002_auto_20200214_2244.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/admin.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/apps.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/migrations/0001_initial.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/migrations/0002_auto_20200214_2114.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guestbook/migrations/0003_auto_20200214_2244.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/migrations/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/models.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/tests.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/urls.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guestbook/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/migrations/0002_auto_20200214_2244.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/guestbook/message.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
@@ -166,7 +169,7 @@
       <workItem from="1581235037981" duration="3441000" />
       <workItem from="1581249049656" duration="3167000" />
       <workItem from="1581252737881" duration="37701000" />
-      <workItem from="1581682302377" duration="8564000" />
+      <workItem from="1581682302377" duration="8836000" />
     </task>
     <servers />
   </component>
