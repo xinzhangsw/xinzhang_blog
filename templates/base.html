@@ -73,10 +73,18 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
+                            {% if request.session.is_login %}
+                                <li class="cl-effect-11"><a>欢迎！{{ request.session.user_name }}</a>
+                                </li>
+                            {% endif %}
+                            <li class="cl-effect-11"><a href="{% url 'oauth:login' %}" data-hover="账户">账户</a></li>
+                            {% if request.session.is_login %}
+                                <li class="cl-effect-11"><a href="{% url 'oauth:logout' %}"
+                                                            data-hover="登出">登出</a></li>
+                            {% endif %}
                             <li class="cl-effect-11"><a href="{% url 'blog:index' %}" data-hover="首页">首页</a></li>
-                            <li class="cl-effect-11"><a href="message.html" data-hover="留言">留言</a></li>
+                            <li class="cl-effect-11"><a href="{% url 'blog:message' %}" data-hover="留言">留言</a></li>
                             <li class="cl-effect-11"><a href="{% url 'blog:about' %}" data-hover="关于">关于</a></li>
-                            <li class="cl-effect-11"><a href="account.html" data-hover="账户">账户</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
@@ -145,9 +153,9 @@
     <nav>
         <ul>
             <li><a href="{% url 'blog:index' %}">首页</a></li>
-            <li><a href="message.html">留言</a></li>
+            <li><a href="{% url 'blog:message' %}">留言</a></li>
             <li><a href="{% url 'blog:about' %}">关于</a></li>
-            <li><a href="account.html">账户</a></li>
+            <li><a href="{% url 'oauth:login' %}">账户</a></li>
         </ul>
     </nav>
 </div>

@@ -1,0 +1,58 @@
+{% extends 'not_sidebar.html' %}
+{% load static %}
+{% block main %}
+    <div class="content-body">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-12">
+                    <h1 class="page-title">欢迎注册</h1>
+                    <article class="post">
+                        <div class="entry-content clearfix">
+                            <form action="{% url 'oauth:register' %}" method="post" class="contact-form">
+                                {% if message %}
+                                    <div class="alert alert-warning">{{ message }}</div>
+                                {% endif %}
+                                {% csrf_token %}
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        {{ register_form.username.label_tag }}
+                                        {{ register_form.username }}
+                                    </div>
+                                    <div class="col-md-6 col-md-offset-3">
+                                        {{ register_form.password1.label_tag }}
+                                    {{ register_form.password1 }}
+                                    </div>
+                                    <div class="col-md-6 col-md-offset-3">
+                                        {{ register_form.password2.label_tag }}
+                                    {{ register_form.password2 }}
+                                    </div>
+                                    <div class="col-md-6 col-md-offset-3">
+                                         {{ register_form.email.label_tag }}
+                                    {{ register_form.email }}
+                                    </div>
+                                    <div class="col-md-6 col-md-offset-3">
+                                         {{ register_form.sex.label_tag }}
+                                    {{ register_form.sex }}
+                                    </div>
+                                                                        <div class="col-md-6 col-md-offset-3 text-center">
+                                        <div class="height-40px"></div>
+                                        <button class="btn-send btn-5 btn-5b ion-ios-paperplane" type="submit">
+                                            <span>注册</span></button>
+                                    </div>
+                                    <div class="col-md-6 col-md-offset-3 text-center">
+                                        <div class="height-40px"></div>
+                                        <a href="{% url 'oauth:login' %}">
+                                            <h3>
+                                                <ins>立即登录</ins>
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>    <!-- row -->
+                            </form>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+    </div>
+{% endblock main %}

@@ -1,5 +1,6 @@
 import pathlib
 from django.contrib import messages
+from django.core.mail import EmailMultiAlternatives
 from django.db.models import Q
 from django.shortcuts import get_object_or_404, render, redirect
 from django.views.generic import ListView, DetailView
@@ -83,3 +84,7 @@ def search(request):
 
 def about(request):
     return render(request, 'blog/about.html')
+
+
+def message(request):
+    return render(request, 'blog/message.html')

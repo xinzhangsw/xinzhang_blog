@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'comments.apps.CommentsConfig',
     # 'pure_pagination',
+    'oauth.apps.OauthConfig',
 ]
 
 MIDDLEWARE = [

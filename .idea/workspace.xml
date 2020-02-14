@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa90229d-0cc5-4ff4-9d0f-7241b3d1104b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/not_sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/oauth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/oauth/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/full-width.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/img/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/img/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xinzhang_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/xinzhang_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xinzhang_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/xinzhang_blog/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -44,8 +56,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oauth" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oauth" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,7 +165,7 @@
       <workItem from="1581158410515" duration="16277000" />
       <workItem from="1581235037981" duration="3441000" />
       <workItem from="1581249049656" duration="3167000" />
-      <workItem from="1581252737881" duration="15853000" />
+      <workItem from="1581252737881" duration="37701000" />
     </task>
     <servers />
   </component>
