@@ -1,0 +1,34 @@
+version: '3'
+
+volumes:
+  static:
+  database:
+
+services:
+  xinzhang_blog:
+    build:
+      context: .
+      dockerfile: compose/production/django/Dockerfile
+    image: xinzhang_blog
+    container_name: xinzhang_blog
+    working_dir: /app
+    volumes:
+      - database:/app/database
+      - static:/app/static
+    env_file:
+      - .envs/.production
+    ports:
+      - "8000:8000"
+    command: /start.sh
+
+  nginx:
+    build:
+      context: .
+      dockerfile: compose/production/nginx/Dockerfile
+    image: xinzhang_blog_nginx
+    container_name: xinzhang_blog_nginx
+    volumes:
+      - static:/apps/xinzhang_blog/static
+    ports:
+      - "80:80"
+      - "443:443"

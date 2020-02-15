@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa90229d-0cc5-4ff4-9d0f-7241b3d1104b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_credentials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose/local/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose/local/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose/production/django/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose/production/django/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose/production/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose/production/nginx/xinzhang_blog.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xinzhang_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/xinzhang_blog/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__main__">
+  <component name="RunManager" selected="Django server.xinzhang_blog">
     <configuration name="0001_initial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xinzhang_blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +119,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/jinxinzhang-Pwefmju4/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -122,6 +135,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.xinzhang_blog" />
+      <item itemvalue="Python.0001_initial" />
+      <item itemvalue="Python.__main__" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.__main__" />
@@ -145,6 +163,7 @@
       <workItem from="1581249049656" duration="3167000" />
       <workItem from="1581252737881" duration="37701000" />
       <workItem from="1581682302377" duration="10401000" />
+      <workItem from="1581746125379" duration="7865000" />
     </task>
     <servers />
   </component>
