@@ -19,4 +19,4 @@
    pipenv run python manage.py createsuperuser
    pipenv run python manage.py runserver
    ```
-5. 访问<u>127.0.0.1：8000</u>
+5. 访问<u>127.0.0.1:8000</u>
